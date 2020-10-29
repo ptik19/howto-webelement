@@ -1,17 +1,16 @@
-# Contributing Guideline
+# Panduan Kontribusi
 
-## Working with git (VCS)
-1. Clone this repository
-```bash
-git clone https://github.com/ptik19/howto-webelement.git
-```
-2. Checkout to master branch
-```bash
-git checkout master
-```
-3. After commiting a changes then push it to components branch
-```bash
-git subtree push --prefix components origin components
-```
+## Menggunakan git
+1. Clone repository ke dalam komputer anda
+`git clone https://github.com/ptik19/howto-webelement.git`
 
-## Please locate your web component to specific folder inside `components` folder
+3. Masuk ke dalam folder repository
+`cd howto-webelement`
+
+4. Buat konrtribusi dan commit dengan pesan yang deskriptif
+
+> Tuliskan lokasi folder web komponen anda dalam pesan commit
+
+5. Setelah commit, silakan push ke branch components
+
+`git subtree push --prefix components origin components`
